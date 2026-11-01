@@ -1,0 +1,11 @@
+[repository]
+name = "hyprhdr"
+authors = ["Haku-taku"]
+
+[hyprhdr]
+description = "Hand HDR pixels to colour-management-aware screencopy clients"
+authors = ["Haku-taku"]
+output = "hyprhdr.so"
+build = [
+    "make all",
+]
